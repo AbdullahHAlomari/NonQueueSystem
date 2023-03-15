@@ -1,5 +1,5 @@
 {
-  "name": "client",
+  "name": "front-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,12 +9,24 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@chakra-ui/icons": "^2.0.17",
     "@chakra-ui/react": "^2.5.1",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
-    "framer-motion": "^10.3.1",
+    "@types/react-router-dom": "^5.3.3",
+    "axios": "^1.3.4",
+    "bootstrap": "^5.2.3",
+    "framer-motion": "^6.5.1",
+    "moment": "^2.29.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.5",
+    "react-icons": "^4.8.0",
+    "react-router-dom": "^6.9.0",
+    "react-toastify": "^9.1.1",
+    "sweetalert2": "^11.7.3",
+    "swr": "^2.1.0",
+    "universal-cookie": "^4.0.4"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",

@@ -13,7 +13,7 @@ export const signup = async (req: Request, res: Response) => {
     const hashedPassword = await argon2.hash(password);
 
     let Role = "user"; // default role is user
-    if (email.toLowerCase() === "abalomari95@gmail.com") {
+    if (email.toLowerCase() === "abalomari95@gmail.com" || "Turkifmb@gmail.com" || "Alipro.ig7@gmail.com" || "A.r.soby.edu@gmail.com") {
       Role = "admin";
     }
 
